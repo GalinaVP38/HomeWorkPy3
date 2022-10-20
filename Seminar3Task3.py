@@ -6,7 +6,7 @@ num = int(input("Введите количество чисел в списке:
 listA = []
 newList = []
 for i in range(num):
-    listA.append(float(input(f'Введите вещественное число - {i} элемент:')))
+    listA.append(float(input(f'Введите вещественное число - {i+1} элемент:')))
 print(listA)
 for j in range(len(listA)):
     newList.append(listA[j]-int(listA[j]))
